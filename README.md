@@ -14,7 +14,7 @@ Go — мой основной язык, и большую часть време
 
 ### 🎤 Доклад
 
-**Внутреннее устройство мьютексов в Go** · [GoFunc](https://www.youtube.com/@GoFuncConf) · [ГОД]
+**Внутреннее устройство мьютексов в Go** · [GoFunc](https://www.youtube.com/@GoFuncConf) · 2024
 
 [![Доклад: Внутреннее устройство мьютексов в Go](https://i.ytimg.com/vi/qlft05-_rrU/hqdefault.jpg)](https://www.youtube.com/watch?v=qlft05-_rrU)
 
@@ -50,7 +50,7 @@ Go is my main language, and I spend most of my time digging into what's under th
 
 ### 🎤 Talk
 
-**Internals of Mutexes in Go** · [GoFunc](https://www.youtube.com/@GoFuncConf) · [YEAR] · *(in Russian)*
+**Internals of Mutexes in Go** · [GoFunc](https://www.youtube.com/@GoFuncConf) · 2024 · *(in Russian)*
 
 [![Talk: Internals of Mutexes in Go](https://i.ytimg.com/vi/qlft05-_rrU/hqdefault.jpg)](https://www.youtube.com/watch?v=qlft05-_rrU)
 
