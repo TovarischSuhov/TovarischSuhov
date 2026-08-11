@@ -34,8 +34,7 @@ Go — мой основной язык, и большую часть време
 
 ### На связи
 
-- **Telegram:** [@хэндл](ССЫЛКА)
-- **Email:** [you@email.com](mailto:you@email.com)
+- **Email:** [ilya+github@suhov.site](mailto:ilya+github@suhov.site)
 
 Рад обсудить Go internals, геометрию под нагрузкой или просто технически поболтать.
 
@@ -71,11 +70,6 @@ Worked on the backend of a geo-information editor that serves user-defined geo-o
 
 ### Get in touch
 
-- **Telegram:** [@handle](LINK)
-- **Email:** [you@email.com](mailto:you@email.com)
+- **Email:** [ilya+github@suhov.site](mailto:ilya+github@suhov.site)
 
 Happy to chat about Go internals, geometry under load, or just talk shop.
-
----
-
-_Создай репозиторий с именем `TovarischSuhov` (ровно как твой GitHub-username) и положи этот файл как `README.md` → он отрендерится на твоём профиле._
