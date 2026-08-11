@@ -8,9 +8,9 @@
 
 ## 🇷🇺 Русский
 
-> Мне нравится понимать, как всё устроено на самом деле — **под API, под абстракциями, в рантайме.** Сейчас это в основном Go.
+> Мне нравится понимать, как всё устроено на самом деле — **внутри API и абстракций, в самом рантайме.** Сейчас это в основном Go.
 
-Go — мой основной язык, и большую часть времени я копаюсь в том, что под капотом: как планировщик рулит горутинами, когда GC даёт о себе знать, что реально делает мьютекс, пока две горутины дерутся за лок.
+Go — мой основной язык. Большую часть времени я копаюсь под капотом: как планировщик рулит горутинами, когда GC даёт о себе знать, что реально делает мьютекс, пока две горутины дерутся за лок.
 
 ### 🎤 Доклад
 
@@ -22,10 +22,10 @@ Go — мой основной язык, и большую часть време
 
 👉 [Смотреть доклад](https://www.youtube.com/watch?v=qlft05-_rrU) · [Слайды](https://squidex.jugru.team/api/assets/srm/fd05297f-b17e-48e2-ae93-1abc253a533f/suhov-gofunc.pdf)
 
-### Над чем разбирался
+### Над чем работал
 
 **Геометрия под нагрузкой** · `geo / ГИС`
-Работал над бэкендом геоинформационного редактора, который отдаёт пользовательские геообъекты (полигоны, polyline) внешним сервисам. Самое интересное тут — **валидация пересечения polyline ∩ polygon**: дорогая вычислительная геометрия в горячем пути. Чтобы понять, где реально тратится время, обернул проверку в кастомный пространственный кеш и убрал повторные пересчёты.
+Работал над бэкендом геоинформационного редактора, который отдаёт пользовательские геообъекты (полигоны и полилинии) внешним сервисам. Самое интересное тут — **валидация пересечения полилинии и полигона**: дорогая вычислительная геометрия в горячем пути. Чтобы понять, где реально тратится время, обернул проверку в кастомный пространственный кеш и убрал повторные пересчёты.
 `Go` `computational geometry`
 
 ### Стек
@@ -36,17 +36,19 @@ Go — мой основной язык, и большую часть време
 
 - **Email:** [ilya+github@suhov.site](mailto:ilya+github@suhov.site)
 
-Рад обсудить Go internals, геометрию под нагрузкой или просто технически поболтать.
+Рад обсудить Go internals, геометрию под нагрузкой или просто поболтать о технологиях.
 
 ---
 
 <a id="english"></a>
 
+[**RU**](#russian) *(above)* · **EN**
+
 ## 🇬🇧 English
 
-> I like understanding how things really work — **under the API, under the abstractions, in the runtime.** Lately that's mostly Go.
+> I like understanding how things really work — **under the API, under the abstractions, in the runtime itself.** Lately that's mostly Go.
 
-Go is my main language, and I spend most of my time digging into what's under the hood: how the scheduler manages goroutines, when the GC makes itself felt, what a mutex actually does while two goroutines fight over a lock.
+Go is my main language. I spend most of my time under the hood: how the scheduler manages goroutines, when the GC kicks in, what a mutex actually does while two goroutines fight over a lock.
 
 ### 🎤 Talk
 
@@ -61,7 +63,7 @@ Go is my main language, and I spend most of my time digging into what's under th
 ### What I dug into
 
 **Geometry under load** · `geo / GIS`
-Worked on the backend of a geo-information editor that serves user-defined geo-objects (polygons, polylines) to external services. The most interesting part was **polyline ∩ polygon intersection validation**: expensive computational geometry sitting in the hot path. To understand where the time actually goes, I wrapped the check in a custom spatial cache and eliminated redundant recomputation.
+Worked on the backend of a geo-information editor that serves user-defined geo-objects (polygons, polylines) to external services. The most interesting part was **polyline ∩ polygon intersection validation**: expensive computational geometry sitting in the hot path. To understand where the time actually goes, I wrapped the check in a custom spatial cache and cut out the redundant recomputation.
 `Go` `computational geometry`
 
 ### Tech stack
