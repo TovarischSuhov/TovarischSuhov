@@ -20,7 +20,7 @@ Go — мой основной язык, и большую часть време
 
 > Разобрал, как устроены мьютексы в Go изнутри: состояния, блокировка через atomic CAS, очередь waiters — и при каких условиях включается starvation mode.
 
-👉 [Смотреть доклад](https://www.youtube.com/watch?v=qlft05-_rrU) · [Слайды](ССЫЛКА_НА_СЛАЙДЫ)
+👉 [Смотреть доклад](https://www.youtube.com/watch?v=qlft05-_rrU) · [Слайды](https://squidex.jugru.team/api/assets/srm/fd05297f-b17e-48e2-ae93-1abc253a533f/suhov-gofunc.pdf)
 
 ### Над чем разбирался
 
@@ -56,7 +56,7 @@ Go is my main language, and I spend most of my time digging into what's under th
 
 > A walkthrough of how Go mutexes work inside: mutex states, atomic CAS locking, the waiters queue — and when starvation mode kicks in.
 
-👉 [Watch the talk](https://www.youtube.com/watch?v=qlft05-_rrU) · [Slides](SLIDES_LINK)
+👉 [Watch the talk](https://www.youtube.com/watch?v=qlft05-_rrU) · [Slides](https://squidex.jugru.team/api/assets/srm/fd05297f-b17e-48e2-ae93-1abc253a533f/suhov-gofunc.pdf)
 
 ### What I dug into
 
